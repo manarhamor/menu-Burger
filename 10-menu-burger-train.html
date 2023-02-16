@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu burger </title>
+    <!-- normalize.css toujours en premier -->
+    <!-- toutes les balises de base sont en position statique -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/menu-burger-train.css">
+    </head>
+
+
+<body>
+    <header></header>
+    <main>
+        <nav>
+            <ul class="bg">
+                <li><a href="#">ACCUEIL</a></li>
+                <li><a class="deroulant" href="#">NOS FORMATIONS</a>
+                    <ul class="sous">
+                        <li><a class="aurevoir" href="#">DEVELOPPEUR(SE) WEB</a></li>
+                        <li><a class="aurevoir" href="#">LES HACKEUSES</a></li>
+                        <li><a class="aurevoir" href="#">WEB DESIGNER</a></li>
+                    </ul>
+                </li>
+                <li><a class="deroulant" href="#">NOS PARTENAIRES</a>
+                    <ul class="sous">
+                        <li><a class="aurevoir" href="#">APPLE</a></li>
+                        <li><a class="aurevoir" href="#">GOOGLE</a></li>
+                        <li><a class="aurevoir" href="#">MICROSOFT</a></li>
+                    </ul>
+                </li>
+                <li><a class="aurevoir" href="#">ACTUALITE</a></li>
+                <li><a class="aurevoir" href="#">NOUS CONTACTER</a></li>
+    
+            </ul>
+        </nav>
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+            <ul class="menu__box">
+                <li><a class="salut" href="#">ACCUEIL</a></li>
+                <li class="deroulant">
+                    <ul class="sous1">
+                        <li><a href="#">DEVELOPPEUR(SE) WEB</a></li>
+                        <li><a href="#">LES HACKEUSES</a></li>
+                        <li><a href="#">WEB DESIGNER</a></li>
+                    </ul>
+                    <a class="salut" href="#">NOS FORMATIONS</a>
+                </li>
+                <li class="deroulant">
+                    <ul class="sous1">
+                        <li><a href="#">APPLE</a></li>
+                        <li><a href="#">GOOGLE</a></li>
+                        <li><a href="#">MICROSOFT</a></li>
+                    </ul>
+                    <a class="salut" href="#">NOS PARTENAIRES</a>
+                </li>
+                <li><a class="salut" href="#">ACTUALITE</a></li>
+                <li><a class="salut" href="#">NOUS CONTACTER</a></li>
+            </ul>
+        </div>
+    
+
+
+
+
+    </main>
+    <footer></footer>
+</body>
